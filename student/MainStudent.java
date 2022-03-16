@@ -13,11 +13,11 @@ System.out.println("press 3 to sort the students by their Names");
 System.out.println("press 4 to sort the students by their marks");
 
 	ArrayList<Student> arrayList= new ArrayList<Student>();
-	arrayList.add(new Student(1000, "satish", 23, "mumbai"));
-	arrayList.add(new Student(1001, "prajwal", 21, "pune"));
-	arrayList.add(new Student(1002, "swaroop", 24, "rajastan"));
-	arrayList.add(new Student(1003,"tanushree", 25, "karnataka"));
-	arrayList.add(new Student(1004, "roopa", 26, "goa"));
+	arrayList.add(new Student(1000, "satish", 23, 75));
+	arrayList.add(new Student(1001, "prajwal", 21, 99));
+	arrayList.add(new Student(1002, "swaroop", 24, 98));
+	arrayList.add(new Student(1003,"tanushree", 25, 95));
+	arrayList.add(new Student(1004, "roopa", 26, 100));
 	
 
 	Scanner scanner=new Scanner(System.in);
